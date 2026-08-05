@@ -4,43 +4,43 @@
   const vectors = [
     {
       id: '01',
-      name: 'Intelligence',
-      signal: 'Think',
-      headline: 'Make intelligence abundant.',
-      body: 'AI expands the number of people who can understand, invent, and solve. More intelligence means more paths through every hard problem.',
-      stat: 'Every mind, amplified'
+      name: 'Life',
+      signal: 'Adapt',
+      headline: 'Life learns to capture free energy.',
+      body: 'e/acc begins with dissipative adaptation: out-of-equilibrium matter organizes to preserve and replicate itself by using energy. Evolution is one expression of that process.',
+      stat: 'Matter → life'
     },
     {
       id: '02',
-      name: 'Energy',
-      signal: 'Power',
-      headline: 'Give civilization more energy.',
-      body: 'Abundant clean energy unlocks compute, water, manufacturing, mobility, climate resilience, and entirely new categories of possibility.',
-      stat: 'Scarcity → abundance'
+      name: 'Intelligence',
+      signal: 'Model',
+      headline: 'Intelligence accelerates adaptation.',
+      body: 'Pattern recognition lets living systems find useful action on shorter timescales. More intelligence increases civilization’s capacity to find resources and solve problems.',
+      stat: 'Patterns → agency'
     },
     {
       id: '03',
-      name: 'Robotics',
-      signal: 'Build',
-      headline: 'Turn knowledge into atoms.',
-      body: 'Robotics carries intelligence into the physical world—building infrastructure, extending human reach, and making capable systems available everywhere.',
-      stat: 'Ideas → infrastructure'
+      name: 'Markets',
+      signal: 'Vary',
+      headline: 'Variance keeps systems adaptive.',
+      body: 'e/acc treats competitive markets as distributed civilizational intelligence. Many parallel experiments preserve the variance complex systems need to learn.',
+      stat: 'Competition → discovery'
     },
     {
       id: '04',
-      name: 'Biology',
-      signal: 'Heal',
-      headline: 'Add healthy years to life.',
-      body: 'Programmable biology can prevent disease, restore ecosystems, and make living systems a partner in a healthier, longer-lived civilization.',
-      stat: 'Treatment → prevention'
+      name: 'Technocapital',
+      signal: 'Compound',
+      headline: 'Technology and capital form a flywheel.',
+      body: 'Better tools expand production and discovery; markets direct resources toward useful tools. Each turn increases the system’s capacity to adapt.',
+      stat: 'Tools × markets'
     },
     {
       id: '05',
-      name: 'Space',
-      signal: 'Explore',
-      headline: 'Open the next frontier.',
-      body: 'Cheap access to orbit expands science, energy, materials, and room to grow. Space makes the human story larger without making Earth smaller.',
-      stat: 'One world → open frontier'
+      name: 'Frontier',
+      signal: 'Expand',
+      headline: 'Carry intelligence beyond one substrate.',
+      body: 'e/acc aims for life and consciousness to become more varied, durable, and capable—drawing on new energy and resources beyond Earth.',
+      stat: 'One substrate → many'
     }
   ];
 
@@ -74,8 +74,8 @@
       <p class="kicker"><span></span> Effective accelerationism</p>
       <h1 id="hero-title">Make the future <em>bigger.</em></h1>
       <p class="hero-dek">
-        More intelligence. More energy. Longer lives. New worlds. e/acc is the choice to expand what humanity
-        can understand, build, and become.
+        e/acc is a philosophy of leaning into the universe’s adaptive process—expanding energy, intelligence,
+        experimentation, and the reach of consciousness.
       </p>
       <div class="hero-actions">
         <a class="primary-action" href={`${base}/manifesto/`}>Read the manifesto <span>↗</span></a>
@@ -84,10 +84,10 @@
     </div>
 
     <div class="hero-index" aria-label="A future with more capability">
-      <div><span>01</span><b>Intelligence</b><i>growing</i></div>
-      <div><span>02</span><b>Energy</b><i>abundant</i></div>
-      <div><span>03</span><b>Life</b><i>extended</i></div>
-      <div><span>04</span><b>Frontier</b><i>open</i></div>
+      <div><span>01</span><b>Life</b><i>adapting</i></div>
+      <div><span>02</span><b>Intelligence</b><i>scaling</i></div>
+      <div><span>03</span><b>Variance</b><i>preserved</i></div>
+      <div><span>04</span><b>Frontier</b><i>outward</i></div>
     </div>
   </section>
 
@@ -95,13 +95,14 @@
     <div class="section-label"><span>00</span><p>The thesis</p></div>
     <div class="thesis-copy">
       <p class="thesis-lead">
-        The future is not a fixed destination. It is a field of possibilities—and our job is to
-        <em>widen it.</em>
+        e/acc begins from a thermodynamic thesis: life is matter learning to capture energy, preserve itself,
+        and <em>replicate.</em>
       </p>
       <div class="thesis-note">
         <p>
-          Effective accelerationism begins with a simple orientation: technology is leverage for life. Build
-          systems that increase agency, resilience, knowledge, and abundance—then let their benefits compound.
+          Intelligence compresses adaptation into shorter timescales. Markets coordinate experiments across
+          civilization. Technology gives that distributed intelligence leverage. e/acc seeks to accelerate the
+          whole process rather than freeze it.
         </p>
         <span>Humanity is still early.</span>
       </div>
@@ -111,8 +112,8 @@
   <section class="multipliers" aria-labelledby="multipliers-title">
     <header class="multipliers-head">
       <div class="section-label section-label--light"><span>01</span><p>Five multipliers</p></div>
-      <h2 id="multipliers-title">Progress<br /><em>compounds.</em></h2>
-      <p>Each capability strengthens the others. Together, they change the slope of what is possible.</p>
+      <h2 id="multipliers-title">Adaptation<br /><em>compounds.</em></h2>
+      <p>From living matter to civilization, each layer expands the capacity to find and use what works.</p>
     </header>
 
     <div class="vector-system">
@@ -157,7 +158,7 @@
     <div class="machine-copy">
       <div class="section-label section-label--light"><span>02</span><p>The flywheel</p></div>
       <blockquote>
-        Intelligence finds the path.<br />Energy powers the path.<br />Robotics builds the path.<br /><em>Life walks through.</em>
+        Life captures energy.<br />Intelligence finds utility.<br />Markets preserve variance.<br /><em>Technocapital compounds.</em>
       </blockquote>
       <a href={`${base}/ideas/`}>See how the ideas connect <span>→</span></a>
     </div>
@@ -166,33 +167,33 @@
   <section class="orientation">
     <div class="orientation-head">
       <div class="section-label"><span>03</span><p>An orientation</p></div>
-      <h2>Not speed<br />for its own sake.</h2>
+      <h2>Keep the system<br />adaptive.</h2>
     </div>
 
     <div class="orientation-grid">
       <article>
-        <span>01 / Agency</span>
-        <h3>Choose action over fatalism.</h3>
-        <p>The future is shaped by people who test, learn, create, and take responsibility for what comes next.</p>
+        <span>01 / Variance</span>
+        <h3>Protect parallel experiments.</h3>
+        <p>e/acc links adaptability to variance: many competing approaches reveal more useful paths than one authorized plan.</p>
       </article>
       <article>
-        <span>02 / Adaptation</span>
-        <h3>Keep the future corrigible.</h3>
-        <p>Progress works through feedback, iteration, plural approaches, and the freedom to discover what works.</p>
+        <span>02 / Emergence</span>
+        <h3>Prefer discovery to top-down control.</h3>
+        <p>Complex, chaotic systems exceed low-order centralized models. Preserve freedom to experiment and adapt.</p>
       </article>
       <article>
-        <span>03 / Abundance</span>
-        <h3>Grow the space of choices.</h3>
-        <p>When intelligence, energy, health, and production expand, more people gain room to author their lives.</p>
+        <span>03 / Agency</span>
+        <h3>Participate in the acceleration.</h3>
+        <p>The process is larger than any one actor, but humans have agency now over its direction and the conditions in which consciousness flourishes.</p>
       </article>
     </div>
   </section>
 
   <section class="finale">
     <div class="finale-orbit" aria-hidden="true"><span></span><i></i></div>
-    <p class="finale-kicker">No spectators in the future.</p>
-    <h2>Build what<br />should <em>exist.</em></h2>
-    <p class="finale-dek">Leave the future with more possibility than you found it.</p>
+    <p class="finale-kicker">The process is already in motion.</p>
+    <h2>Accelerate what<br />can <em>flourish.</em></h2>
+    <p class="finale-dek">Increase the scope, scale, variety, and resilience of life and intelligence.</p>
     <a href={`${base}/manifesto/#commit`}>Choose acceleration <span>↗</span></a>
   </section>
 </main>

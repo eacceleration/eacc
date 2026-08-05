@@ -1,26 +1,26 @@
 <script lang="ts">
   const ideas = [
-    { tag: 'Orientation', title: 'Agency over fatalism', text: 'The most consequential variable in the future is what capable people decide to attempt.', mark: 'A' },
-    { tag: 'Technology', title: 'Intelligence wants to grow', text: 'Better reasoning creates better tools; better tools let more people reason, create, and coordinate.', mark: 'I' },
-    { tag: 'Economics', title: 'Abundance expands freedom', text: 'When energy and production become cheaper, more people gain room to choose lives beyond subsistence.', mark: '∞' },
-    { tag: 'Systems', title: 'Adaptation beats control', text: 'Complex systems thrive through feedback, experimentation, and many parallel attempts—not perfect central foresight.', mark: '↻' },
-    { tag: 'Ethics', title: 'Optimism is a practice', text: 'Optimism is not prediction. It is the discipline of looking for actions that improve the odds.', mark: '+' },
-    { tag: 'Culture', title: 'Build the attractor', text: 'Make the better future tangible enough that people can see it, use it, and choose to pull it closer.', mark: '↗' }
+    { tag: 'Thermodynamics', title: 'Life captures free energy', text: 'The e/acc thesis begins with dissipative adaptation: matter organizes to preserve and replicate its state by extracting utility from its environment.', mark: 'Δ' },
+    { tag: 'Intelligence', title: 'Adaptation at a shorter timescale', text: 'Intelligence finds useful patterns faster than genetic evolution alone. More intelligence increases the rate at which life can discover viable action.', mark: 'I' },
+    { tag: 'Meta-organisms', title: 'Civilization coordinates across scales', text: 'Agents form firms, markets, institutions, and societies. Together they behave as an adaptive network with no complete central model.', mark: 'M' },
+    { tag: 'Variance', title: 'Competition preserves discovery', text: 'Parallel attempts and higher-variance marketplaces keep systems dynamically adaptive when environments and technologies change.', mark: 'σ' },
+    { tag: 'Technocapital', title: 'The flywheel compounds', text: 'Technology creates leverage; markets route resources toward useful leverage. Their feedback loop increases civilizational capability.', mark: '×' },
+    { tag: 'Substrate', title: 'Consciousness can expand outward', text: 'e/acc values flourishing intelligence beyond any single biological form and seeks new substrates, energy, and resources beyond Earth.', mark: '↗' }
   ];
 </script>
 
 <svelte:head>
   <title>Ideas — e/acc</title>
-  <meta name="description" content="Six ideas for thinking about effective accelerationism." />
+  <meta name="description" content="Six core ideas from effective accelerationism: adaptation, intelligence, meta-organisms, variance, technocapital, and substrate independence." />
 </svelte:head>
 
 <main>
   <section class="ideas-hero">
     <p class="eyebrow">The operating system</p>
-    <h1>Ideas for an<br /><span>open future.</span></h1>
+    <h1>Ideas for an<br /><span>adaptive civilization.</span></h1>
     <div class="hero-note">
       <span>06 SIGNALS</span>
-      <p>A short field guide for thinking in motion.</p>
+      <p>A visual field guide to the original e/acc tenets.</p>
     </div>
   </section>
 
@@ -39,8 +39,8 @@
 
   <section class="question">
     <p>THE USEFUL QUESTION IS NOT</p>
-    <s>“What will happen?”</s>
-    <h2>“What can we<br />make possible?”</h2>
+    <s>“How do we freeze the present?”</s>
+    <h2>“How do we increase<br />adaptive capacity?”</h2>
     <div class="question-orbit"><span></span><span></span><b>↗</b></div>
   </section>
 </main>

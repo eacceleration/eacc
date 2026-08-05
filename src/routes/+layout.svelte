@@ -16,10 +16,10 @@
   <title>e/acc — Choose acceleration</title>
   <meta
     name="description"
-    content="A living field guide to effective accelerationism: build boldly, grow intelligence, and widen the future."
+    content="A visual field guide to effective accelerationism: adaptation, intelligence, variance, technocapital, and flourishing consciousness."
   />
   <meta property="og:title" content="e/acc — Choose acceleration" />
-  <meta property="og:description" content="The future is not something that happens to us. Build it." />
+  <meta property="og:description" content="Increase the scope and scale of life, intelligence, and adaptive civilization." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content={`https://eacc.space${page.url.pathname.replace(base, '')}`} />
   <meta property="og:image" content="https://eacc.space/hero-orbital.jpg" />

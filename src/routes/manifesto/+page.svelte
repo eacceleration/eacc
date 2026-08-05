@@ -1,26 +1,32 @@
 <script lang="ts">
   const statements = [
-    ['01', 'We believe in agency.', 'The world is shaped by people who act. We choose experiments over commentary, creation over resignation, and learning over the comfort of standing still.'],
-    ['02', 'We believe in intelligence.', 'Intelligence—biological, artificial, individual, and collective—is how the universe becomes more able to understand and transform itself.'],
-    ['03', 'We believe in abundance.', 'More energy, better tools, and wider access create choices that scarcity denies. Growth is valuable when it compounds human possibility.'],
-    ['04', 'We believe in adaptation.', 'No system is perfect at launch. Resilient futures come from feedback, iteration, plural approaches, and the freedom to discover what works.'],
-    ['05', 'We believe the future is open.', 'Neither utopia nor collapse is inevitable. The path ahead is contingent—and that makes building matter.']
+    ['01', 'Life is adaptive matter.', 'e/acc starts from dissipative adaptation: matter driven out of equilibrium can organize to capture free energy, preserve its state, and replicate. Evolution is a special case of this larger process.'],
+    ['02', 'Intelligence accelerates adaptation.', 'Intelligence identifies useful patterns on shorter timescales. Biological minds, artificial minds, and collective intelligence all increase the capacity to find resources and act.'],
+    ['03', 'Civilization is a meta-organism.', 'People, firms, markets, and institutions coordinate across scales. e/acc reads this changing network as a form of civilizational intelligence rather than a machine with one controller.'],
+    ['04', 'Variance is a capability.', 'Adaptive systems need many experiments and competing strategies. e/acc favors freedom, markets, and bottom-up discovery over low-order attempts to control complex systems from the top.'],
+    ['05', 'Consciousness should flourish.', 'The aim is not allegiance to one biological substrate. It is life and intelligence becoming more capable, varied, and durable—eventually reaching new energy and resources beyond Earth.']
   ];
 </script>
 
 <svelte:head>
   <title>The manifesto — e/acc</title>
-  <meta name="description" content="A compact manifesto for agency, intelligence, abundance, adaptation, and an open future." />
+  <meta name="description" content="A concise interpretation of the original e/acc tenets: adaptation, intelligence, variance, technocapital, and flourishing consciousness." />
 </svelte:head>
 
 <main>
   <section class="manifesto-hero">
-    <p class="eyebrow">A direction, not a doctrine</p>
+    <p class="eyebrow">A concise interpretation of the original tenets</p>
     <div class="manifesto-title">
       <h1>Manifesto</h1>
       <span>001 / 005</span>
     </div>
-    <p class="intro">We choose to participate in the future.</p>
+    <p class="intro">Increase the scope and scale of life, intelligence, and adaptive civilization.</p>
+    <a
+      class="source-link"
+      href="https://effectiveaccelerationism.substack.com/p/repost-notes-on-eacc-principles-and"
+      target="_blank"
+      rel="noreferrer"
+    >Read the original 2022 notes <span>↗</span></a>
     <div class="scroll-cue">Scroll to accelerate <span>↓</span></div>
   </section>
 
@@ -41,7 +47,7 @@
     <div class="commit-mark" aria-hidden="true"><span>↗</span></div>
     <p class="eyebrow">The commitment</p>
     <blockquote>
-      I will leave the future with <em>more possibility</em> than I found it.
+      Accelerate the processes that make life and intelligence <em>more capable, varied, and durable.</em>
     </blockquote>
     <div class="signature">
       <span>Signed,</span>
@@ -95,6 +101,19 @@
     font-style: italic;
     line-height: 1.05;
   }
+
+  .source-link {
+    display: inline-block;
+    margin: 2rem 0 0 50%;
+    padding-bottom: .35rem;
+    border-bottom: 1px solid var(--orange);
+    font-family: 'DM Mono', monospace;
+    font-size: .62rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+
+  .source-link span { margin-left: .65rem; color: var(--orange); }
 
   .scroll-cue {
     position: absolute;
@@ -234,6 +253,7 @@
     .manifesto-hero, .statements, .commitment { width: min(100% - 28px, 1440px); }
     .manifesto-hero { min-height: 720px; padding-top: 5rem; }
     .intro { margin-top: 3rem; }
+    .source-link { margin-left: 0; }
     .statements article { grid-template-columns: 1fr; min-height: 440px; }
     .statement-copy p { margin-top: 3rem; }
     .progress { grid-column: 1; }
