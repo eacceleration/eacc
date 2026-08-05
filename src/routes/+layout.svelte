@@ -1,0 +1,58 @@
+<script lang="ts">
+  import { page } from '$app/state';
+  import { base } from '$app/paths';
+  import '../styles/global.css';
+
+  let { children } = $props();
+
+  const links = [
+    { href: `${base}/`, label: 'Start' },
+    { href: `${base}/manifesto/`, label: 'Manifesto' },
+    { href: `${base}/ideas/`, label: 'Ideas' }
+  ];
+</script>
+
+<svelte:head>
+  <title>e/acc — Choose acceleration</title>
+  <meta
+    name="description"
+    content="A living field guide to effective accelerationism: build boldly, grow intelligence, and widen the future."
+  />
+  <meta property="og:title" content="e/acc — Choose acceleration" />
+  <meta property="og:description" content="The future is not something that happens to us. Build it." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={`https://eacc.space${page.url.pathname.replace(base, '')}`} />
+  <meta property="og:image" content="https://eacc.space/hero-orbital.jpg" />
+  <meta property="og:image:width" content="1672" />
+  <meta property="og:image:height" content="941" />
+  <meta property="og:image:alt" content="A sunlit orbital research habitat and interstellar laboratory vessel" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://eacc.space/hero-orbital.jpg" />
+  <link rel="canonical" href={`https://eacc.space${page.url.pathname.replace(base, '')}`} />
+</svelte:head>
+
+<header class="site-header">
+  <a class="wordmark" href={`${base}/`} aria-label="e/acc home">
+    <span>e</span><i>/</i><span>acc</span>
+  </a>
+
+  <nav aria-label="Main navigation">
+    {#each links as link}
+      <a href={link.href} aria-current={page.url.pathname === link.href ? 'page' : undefined}>
+        {link.label}
+      </a>
+    {/each}
+  </nav>
+
+  <a class="header-cta" href={`${base}/manifesto/#commit`}>Choose motion <span>↗</span></a>
+</header>
+
+{@render children()}
+
+<footer class="site-footer">
+  <a class="wordmark footer-mark" href={`${base}/`} aria-label="e/acc home">
+    <span>e</span><i>/</i><span>acc</span>
+  </a>
+  <p>Build. Explore. Accelerate.</p>
+  <p class="footer-note">eacc.space · No spectators in the future.</p>
+</footer>
