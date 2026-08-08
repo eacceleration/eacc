@@ -23,9 +23,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content={`https://eacc.space${page.url.pathname.replace(base, '')}`} />
   <meta property="og:image" content="https://eacc.space/hero-orbital.jpg" />
-  <meta property="og:image:width" content="928" />
-  <meta property="og:image:height" content="634" />
-  <meta property="og:image:alt" content="A sunlit orbital habitat with solar arrays, research towers, and a living biosphere" />
+  <meta property="og:image:width" content="1568" />
+  <meta property="og:image:height" content="1003" />
+  <meta property="og:image:alt" content="A technological ring civilization flying above clouds among distant planets" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://eacc.space/hero-orbital.jpg" />
   <link rel="canonical" href={`https://eacc.space${page.url.pathname.replace(base, '')}`} />
