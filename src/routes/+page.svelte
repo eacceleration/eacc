@@ -63,8 +63,8 @@
         class="hero-art"
         src={`${base}/hero-orbital.jpg`}
         alt="A vast sunlit orbital research habitat surrounding an interstellar laboratory vessel, with robotics, biotechnology, fusion power, and telescopes"
-        width="1672"
-        height="941"
+        width="928"
+        height="634"
         fetchpriority="high"
       />
     </picture>
@@ -160,7 +160,7 @@
     <div class="machine-image">
       <picture>
         <source srcset={`${base}/hero-orbital.avif`} type="image/avif" />
-        <img src={`${base}/hero-orbital.jpg`} alt="" width="1672" height="941" loading="lazy" />
+        <img src={`${base}/hero-orbital.jpg`} alt="" width="928" height="634" loading="lazy" />
       </picture>
       <div class="machine-overlay" aria-hidden="true">
         <span>OPTICAL FEED / 02</span>

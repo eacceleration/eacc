@@ -23,8 +23,8 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content={`https://eacc.space${page.url.pathname.replace(base, '')}`} />
   <meta property="og:image" content="https://eacc.space/hero-orbital.jpg" />
-  <meta property="og:image:width" content="1672" />
-  <meta property="og:image:height" content="941" />
+  <meta property="og:image:width" content="928" />
+  <meta property="og:image:height" content="634" />
   <meta property="og:image:alt" content="A sunlit orbital research habitat and interstellar laboratory vessel" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://eacc.space/hero-orbital.jpg" />
