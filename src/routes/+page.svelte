@@ -158,7 +158,7 @@
         <source srcset={`${base}/hero-orbital.avif`} type="image/avif" />
         <img src={`${base}/hero-orbital.jpg`} alt="" width="928" height="634" loading="lazy" />
       </picture>
-      <p><span></span> A civilization with more room to think, build, and become.</p>
+      <p><span></span> A civilization with more room to think, build, and explore.</p>
     </div>
     <div class="flywheel-copy">
       <div class="section-index"><span>03</span><p>The flywheel</p></div>
