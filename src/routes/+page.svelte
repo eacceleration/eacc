@@ -486,6 +486,12 @@
     .principles { grid-template-columns: 1fr; }
   }
 
+  @media (min-width: 701px) and (max-aspect-ratio: 6 / 5) {
+    .hero-visual { inset: 16% 5% 84px; }
+    .hero-copy::before { top: 37%; height: 48%; }
+    h1 { top: 37%; }
+  }
+
   @media (max-width: 700px) {
     .hero { min-height: 960px; padding-inline: 18px; }
     .hero .overline { top: 2.5rem; left: 18px; }
