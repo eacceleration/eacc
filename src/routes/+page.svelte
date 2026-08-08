@@ -76,8 +76,6 @@
         />
       </picture>
       <div class="visual-fade" aria-hidden="true"></div>
-      <div class="orbit orbit-a" aria-hidden="true"><i></i><i></i><i></i></div>
-      <div class="orbit orbit-b" aria-hidden="true"><i></i><i></i></div>
       <div class="coordinate" aria-hidden="true">
         <span>SCOPE / CIVILIZATION</span><span>VECTOR / OUTWARD</span><span>STATE / ADAPTIVE</span>
       </div>
@@ -339,18 +337,6 @@
       linear-gradient(180deg, rgba(247,247,243,.85), transparent 22%);
   }
 
-  .orbit { position: absolute; border: 1px solid rgba(28,29,26,.18); border-radius: 50%; animation: orbit-pulse 5s ease-in-out infinite; }
-  .orbit i { position: absolute; width: 5px; height: 5px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 14px rgba(255,90,54,.5); }
-  .orbit-a { top: 7%; left: calc(50% - min(24.5vw, 340px)); width: min(49vw, 680px); aspect-ratio: 1; }
-  .orbit-a::before,.orbit-a::after,.orbit-b::before { position: absolute; inset: 14%; border: 1px solid rgba(28,29,26,.12); border-radius: 50%; content: ''; }
-  .orbit-a::after { inset: 34%; }
-  .orbit-a i:nth-child(1) { top: 14%; left: 24%; }
-  .orbit-a i:nth-child(2) { top: 62%; left: 2%; }
-  .orbit-a i:nth-child(3) { right: 11%; bottom: 20%; }
-  .orbit-b { right: 9%; bottom: 6%; width: 210px; aspect-ratio: 1; animation-delay: -2s; }
-  .orbit-b i:nth-child(1) { top: -3px; left: 50%; }
-  .orbit-b i:nth-child(2) { right: 8%; bottom: 22%; }
-
   .coordinate { position: absolute; top: clamp(3rem,7vh,5.5rem); right: max(0px,calc((100vw - 1440px) / 2 - 5vw)); display: flex; gap: 1.4rem; color: rgba(25,25,22,.56); }
   .coordinate span + span::before { margin-right: 1.4rem; content: '/'; }
 
@@ -478,7 +464,6 @@
   .finale-orbit span { position: absolute; top: 12%; left: 25%; width: 10px; height: 10px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 0 8px rgba(255,90,54,.1); }
 
   @keyframes reveal { from { opacity: 0; transform: scale(1.035); } to { opacity: 1; transform: scale(1); } }
-  @keyframes orbit-pulse { 0%,100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.015); } }
   @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
   @keyframes breathe { 0%,100% { transform: scaleX(.3); } 50% { transform: scaleX(1); } }
 
@@ -515,8 +500,6 @@
     .hero-intro > p { bottom: 210px; left: 18px; width: calc(100% - 36px); font-size: .8rem; }
     .hero-intro > .arrow-link { right: 18px; bottom: 135px; left: 18px; width: auto; }
     .coordinate { display: none; }
-    .orbit-a { top: 18%; width: 115vw; }
-    .orbit-b { display: none; }
     .hero-foot { right: 18px; left: 18px; grid-template-columns: auto 1fr; gap: .65rem 1rem; padding: 1rem 0; }
     .hero-foot > span { grid-row: 1 / 4; }
     .hero-foot i { display: none; }
