@@ -6,9 +6,9 @@
   let { children } = $props();
 
   const links = [
-    { href: `${base}/`, label: 'Start' },
-    { href: `${base}/manifesto/`, label: 'Manifesto' },
-    { href: `${base}/ideas/`, label: 'Ideas' }
+    { href: `${base}/`, label: 'Start', index: '01' },
+    { href: `${base}/manifesto/`, label: 'Manifesto', index: '02' },
+    { href: `${base}/ideas/`, label: 'Ideas', index: '03' }
   ];
 </script>
 
@@ -39,12 +39,12 @@
   <nav aria-label="Main navigation">
     {#each links as link}
       <a href={link.href} aria-current={page.url.pathname === link.href ? 'page' : undefined}>
-        {link.label}
+        <span>{link.index}</span>{link.label}
       </a>
     {/each}
   </nav>
 
-  <a class="header-cta" href={`${base}/manifesto/#commit`}>Choose motion <span>↗</span></a>
+  <a class="header-cta" href={`${base}/manifesto/#commit`}>Accelerate <span>↗</span></a>
 </header>
 
 {@render children()}
@@ -53,6 +53,6 @@
   <a class="wordmark footer-mark" href={`${base}/`} aria-label="e/acc home">
     <span>e</span><i>/</i><span>acc</span>
   </a>
-  <p>Build. Explore. Accelerate.</p>
-  <p class="footer-note">eacc.space · No spectators in the future.</p>
+  <p>System / Build. Explore. Accelerate.</p>
+  <p class="footer-note">eacc.space · Adaptive civilization in progress.</p>
 </footer>
