@@ -64,14 +64,14 @@
       </div>
     </div>
 
-    <div class="hero-visual" aria-label="A sunlit orbital civilization powered by advanced technology">
+    <div class="hero-visual" aria-label="A technological ring civilization traveling outward among planets">
       <picture>
         <source srcset={`${base}/hero-orbital.avif`} type="image/avif" />
         <img
           src={`${base}/hero-orbital.jpg`}
-          alt="A vast sunlit orbital habitat with solar energy arrays, research towers, and a living biosphere"
-          width="928"
-          height="634"
+          alt="A vast technological ring civilization flying above clouds among distant planets"
+          width="1568"
+          height="1003"
           fetchpriority="high"
         />
       </picture>
@@ -325,8 +325,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 62% center;
-    filter: saturate(.68) contrast(.9) brightness(1.16);
+    object-position: center;
+    filter: saturate(.82) contrast(.95) brightness(1.05);
     animation: reveal 1.2s cubic-bezier(.2,.7,.2,1) both;
   }
 
@@ -489,7 +489,9 @@
   @media (max-width: 700px) {
     .hero { min-height: 960px; padding-inline: 18px; }
     .hero .overline { top: 2.5rem; left: 18px; }
-    .hero-visual { inset: 11% -28% 112px; opacity: .7; }
+    .hero-visual { inset: 11% -28% 112px; opacity: .9; }
+    .hero-visual img { object-position: 58% center; filter: saturate(.88) contrast(.97) brightness(1.01); }
+    .hero-visual .visual-fade { opacity: .78; }
     .visual-fade { background: linear-gradient(180deg,#f6f6f2 0%,rgba(246,246,242,.25) 22%,rgba(246,246,242,.38) 72%,#f5f4ef 100%),linear-gradient(90deg,#f6f6f2,transparent 24%,transparent 76%,#f6f6f2); }
     .hero-copy::before { top: 39%; width: 118vw; height: 48%; }
     h1 { top: 35%; width: calc(100% - 24px); font-size: clamp(4.25rem,19vw,6.4rem); }
