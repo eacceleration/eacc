@@ -413,7 +413,7 @@
     .process-line { right: max(0px,calc((100% - 1120px) / 2)); left: max(0px,calc((100% - 1120px) / 2)); }
   }
 
-  .vectors { padding: 8rem 0 10rem; border-top: 1px solid #cfcec7; }
+  .vectors { padding: 8rem 0 0; border-top: 1px solid #cfcec7; }
   .vectors-head { display: grid; grid-template-columns: .62fr 2fr 1fr; gap: 4rem; align-items: end; }
   .vectors-head h2 { font-size: clamp(3.8rem,6.5vw,7rem); }
   .vectors-head > p { max-width: 320px; margin: 0; color: #6b6c66; font-size: .84rem; line-height: 1.7; }
@@ -524,7 +524,7 @@
     .premise { padding-block: 7rem; }
     .premise-detail { grid-template-columns: 1fr; gap: 2rem; }
     .process-line { left: 0; }
-    .vectors { padding-block: 6rem; }
+    .vectors { padding: 6rem 0 0; }
     .vectors-head { grid-template-columns: 1fr; gap: 2.5rem; }
     .vectors-head > p { grid-column: 1; }
     .vector-stage { grid-template-columns: 1fr; min-height: 850px; }
