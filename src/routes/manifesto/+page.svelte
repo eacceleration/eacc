@@ -4,12 +4,12 @@
     ['02', 'Intelligence accelerates adaptation.', 'Intelligence identifies useful patterns on shorter timescales. Biological minds, artificial minds, and collective intelligence all increase the capacity to find resources and act.'],
     ['03', 'Civilization is a meta-organism.', 'People, firms, markets, and institutions coordinate across scales. e/acc reads this changing network as a form of civilizational intelligence rather than a machine with one controller.'],
     ['04', 'Variance is a capability.', 'Adaptive systems need many experiments and competing strategies. e/acc favors freedom, markets, and bottom-up discovery over low-order attempts to control complex systems from the top.'],
-    ['05', 'Consciousness should flourish.', 'The aim is not allegiance to one biological substrate. It is life and intelligence becoming more capable, varied, and durable—eventually reaching new energy and resources beyond Earth.']
+    ['05', 'Life and consciousness should flourish.', 'Human flourishing is a core value. e/acc also looks beyond allegiance to one biological substrate: toward life and intelligence becoming more capable, varied, and durable, with access to new energy and resources beyond Earth.']
   ];
 </script>
 
 <svelte:head>
-  <title>The manifesto — e/acc</title>
+  <title>The tenets — e/acc</title>
   <meta name="description" content="A concise interpretation of the original e/acc tenets: adaptation, intelligence, variance, technocapital, and flourishing consciousness." />
 </svelte:head>
 
@@ -17,7 +17,7 @@
   <section class="manifesto-hero">
     <p class="eyebrow">A concise interpretation of the original tenets</p>
     <div class="manifesto-title">
-      <h1>Manifesto</h1>
+      <h1>The tenets</h1>
       <span>001 / 005</span>
     </div>
     <p class="intro">Increase the scope and scale of life, intelligence, and adaptive civilization.</p>
@@ -47,7 +47,8 @@
     <div class="commit-mark" aria-hidden="true"><span>↗</span></div>
     <p class="eyebrow">The commitment</p>
     <blockquote>
-      Accelerate the processes that make life and intelligence <em>more capable, varied, and durable.</em>
+      Accelerate the processes that expand human flourishing and make life and intelligence
+      <em>more capable, varied, and durable.</em>
     </blockquote>
     <div class="signature">
       <span>Signed,</span>

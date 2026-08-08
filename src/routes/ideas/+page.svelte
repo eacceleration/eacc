@@ -5,7 +5,7 @@
     { tag: 'Meta-organisms', title: 'Civilization coordinates across scales', text: 'Agents form firms, markets, institutions, and societies. Together they behave as an adaptive network with no complete central model.', mark: 'M' },
     { tag: 'Variance', title: 'Competition preserves discovery', text: 'Parallel attempts and higher-variance marketplaces keep systems dynamically adaptive when environments and technologies change.', mark: 'σ' },
     { tag: 'Technocapital', title: 'The flywheel compounds', text: 'Technology creates leverage; markets route resources toward useful leverage. Their feedback loop increases civilizational capability.', mark: '×' },
-    { tag: 'Substrate', title: 'Consciousness can expand outward', text: 'e/acc values flourishing intelligence beyond any single biological form and seeks new substrates, energy, and resources beyond Earth.', mark: '↗' }
+    { tag: 'Substrate', title: 'Consciousness can expand outward', text: 'Human flourishing and biological life remain valuable. e/acc also seeks more varied and durable intelligence across new substrates, energy, and resources beyond Earth.', mark: '↗' }
   ];
 </script>
 

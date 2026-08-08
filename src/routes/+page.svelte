@@ -60,7 +60,7 @@
           e/acc is a philosophy of leaning into the universe’s adaptive process—expanding energy,
           intelligence, experimentation, and the reach of consciousness.
         </p>
-        <a class="arrow-link" href={`${base}/manifesto/`}>Read the manifesto <span>↗</span></a>
+        <a class="arrow-link" href={`${base}/manifesto/`}>Explore the tenets <span>↗</span></a>
       </div>
     </div>
 
@@ -79,7 +79,7 @@
       <div class="orbit orbit-a" aria-hidden="true"><i></i><i></i><i></i></div>
       <div class="orbit orbit-b" aria-hidden="true"><i></i><i></i></div>
       <div class="coordinate" aria-hidden="true">
-        <span>37.7749° N</span><span>VECTOR / OUTWARD</span><span>STATE / ADAPTIVE</span>
+        <span>SCOPE / CIVILIZATION</span><span>VECTOR / OUTWARD</span><span>STATE / ADAPTIVE</span>
       </div>
     </div>
 
@@ -199,7 +199,7 @@
 
   <section class="finale">
     <div class="finale-orbit" aria-hidden="true"><i></i><span></span></div>
-    <p class="overline"><i></i> No final state</p>
+    <p class="overline"><i></i> Dynamic adaptation / in motion</p>
     <h2>Increase the scope of what can <em>flourish.</em></h2>
     <p>More life. More intelligence. More agency. More frontier.</p>
     <a class="arrow-link" href={`${base}/manifesto/#commit`}>Choose acceleration <span>↗</span></a>

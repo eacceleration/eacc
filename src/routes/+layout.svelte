@@ -7,7 +7,7 @@
 
   const links = [
     { href: `${base}/`, label: 'Start' },
-    { href: `${base}/manifesto/`, label: 'Manifesto' },
+    { href: `${base}/manifesto/`, label: 'Tenets' },
     { href: `${base}/ideas/`, label: 'Ideas' }
   ];
 </script>
@@ -25,7 +25,7 @@
   <meta property="og:image" content="https://eacc.space/hero-orbital.jpg" />
   <meta property="og:image:width" content="928" />
   <meta property="og:image:height" content="634" />
-  <meta property="og:image:alt" content="A sunlit orbital research habitat and interstellar laboratory vessel" />
+  <meta property="og:image:alt" content="A sunlit orbital habitat with solar arrays, research towers, and a living biosphere" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://eacc.space/hero-orbital.jpg" />
   <link rel="canonical" href={`https://eacc.space${page.url.pathname.replace(base, '')}`} />
@@ -54,5 +54,5 @@
     <span>e</span><i>/</i><span>acc</span>
   </a>
   <p>Build. Explore. Accelerate.</p>
-  <p class="footer-note">eacc.space · The future is a process.</p>
+  <p class="footer-note">eacc.space · Expand the scope and scale.</p>
 </footer>
